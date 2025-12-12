@@ -1,0 +1,24 @@
+#!/bin/bash
+# Q-Chem trans-azobenzene optimization test
+
+#SBATCH --job-name=trans_opt2
+#SBATCH --output=trans_opt2.o%j
+#SBATCH --error=trans_opt2.e%j
+
+#SBATCH --partition=main
+#SBATCH --nodes=1
+#SBATCH --ntasks=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8000MB
+#SBATCH --time=02:00:00
+#SBATCH --account=krylov_547   # or warshel_155
+
+module purge
+module load usc
+module load qchem/6.3.0-openmp   # 
+
+
+cd $SLURM_SUBMIT_DIR
+hostname
+
+qchem -nt 8 trans_opt2.in trans_opt2.qcout
