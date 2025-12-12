@@ -1,0 +1,809 @@
+
+Running Job 1 of 1 cis_vert_solv.in
+qchem cis_vert_solv.in_2661614.0 /scratch1/hulinfen/qchem2661614/ 1
+/apps/generic/qchem/6.3.0/openmp/exe/qcprog.exe_s cis_vert_solv.in_2661614.0 /scratch1/hulinfen/qchem2661614/
+                  Welcome to Q-Chem
+     A Quantum Leap Into The Future Of Chemistry
+
+
+ Q-Chem 6.3, Q-Chem, Inc., Pleasanton, CA (2025)
+
+ License issued to: University of Southern California (site)
+
+ E. Epifanovsky,  A. T. B. Gilbert,  Xintian Feng,  Joonho Lee,  Yuezhi Mao,  
+ N. Mardirossian,  P. Pokhilko,  A. White,  M. Wormit,  M. P. Coons,  
+ A. L. Dempwolff,  Zhengting Gan,  D. Hait,  P. R. Horn,  L. D. Jacobson,  
+ I. Kaliman,  J. Kussmann,  A. W. Lange,  Ka Un Lao,  D. S. Levine,  Jie Liu,  
+ S. C. McKenzie,  A. F. Morrison,  K. D. Nanda,  F. Plasser,  D. R. Rehn,  
+ M. L. Vidal,  Zhi-Qiang You,  Ying Zhu,  Huseyin Aksu,  B. Alam,  
+ B. Albrecht,  A. Aldossary,  E. Alguire,  J. H. Andersen,  
+ J. E. Arias-Martinez,  V. Athavale,  F. Ballesteros,  D. Barton,  K. Begam,  
+ A. Behn,  N. Bellonzi,  Y. A. Bernard,  E. J. Berquist,  H. Burton,  
+ S. Camps,  A. Carreras,  K. Carter-Fenk,  Mathew Chow,  Romit Chakraborty,  
+ Chandrima Chakravarty,  Junhan Chen,  A. D. Chien,  K. D. Closser,  
+ V. Cofer-Shabica,  L. Cunha,  S. Dasgupta,  Jia Deng,  Joseph Dickinson,  
+ M. de Wergifosse,  M. Diedenhofen,  L. B. Dittmer,  Hainam Do,  Wenjie Dou,  
+ S. Ehlert,  Po-Tung Fang,  S. Fatehi,  Qingguo Feng,  Jonathan Fetherolf,  
+ T. Friedhoff,  Thomas Froitzheim,  Sarai Folkestad,  B. Ganoe,  J. Gayvert,  
+ Qinghui Ge,  G. Gidofalvi,  M. Gimferrer,  G. Giudetti,  M. Goldey,  
+ Montgomery Gray,  J. Gomes,  C. Gonzalez-Espinoza,  S. Gulania,  A. Gunina,  
+ J. A. Gyamfi,  M. W. D. Hanson-Heine,  P. H. P. Harbach,  A. W. Hauser,  
+ M. F. Herbst,  M. Hernandez Vera,  M. Hodecker,  Z. C. Holden,  S. Houck,  
+ Xunkun Huang,  Kerwin Hui,  B. C. Huynh,  K. Ikeda,  M. Ivanov,  
+ Nayanthara K. Jayadev,  Hyunjun Ji,  Zuxin Jin,  Hanjie Jiang,  
+ Subrata Jana,  B. Kaduk,  S. Kaehler,  R. Kang,  Richard Kang,  
+ K. Khistyaev,  Jaehoon Kim,  Yongbin Kim,  P. Klunzinger,  Z. Koczor-Benda,  
+ Joong Hoon Koh,  D. Kosenkov,  Saikiran Kotaru,  L. Koulias,  T. Kowalczyk,  
+ C. M. Krauter,  K. Kue,  A. Kunitsa,  T. Kus,  A. Landau,  C. W. Lander,  
+ K. V. Lawler,  D. Lefrancois,  S. Lehtola,  Rain Li,  Shaozhi Li,  
+ Tao E. Li,  Yi-Pei Li,  Jiashu Liang,  M. Liebenthal,  Hung-Hsuan Lin,  
+ You-Sheng Lin,  Fenglai Liu,  Kuan-Yu Liu,  Xiao Liu,  M. Loipersberger,  
+ A. Luenser,  C. Malbon,  Aniket Mandal,  Manisha,  A. Manjanath,  
+ P. Manohar,  E. Mansoor,  S. F. Manzer,  Shan-Ping Mao,  A. V. Marenich,  
+ T. Markovich,  S. Mason,  F. Matz,  S. A. Maurer,  Samuel May,  
+ Alexandra McIsaac,  P. F. McLaughlin,  M. F. S. J. Menger,  J.-M. Mewes,  
+ S. A. Mewes,  R. E. Moorby,  P. Morgante,  Mohammad Mostafanejad,  
+ Madhubani Mukherjee,  J. W. Mullinax,  Quyen Nguyen,  Avik Kumar Ojha,  
+ K. J. Oosterbaan,  Eno Paenurk,  Xiaoliang Pan,  G. Paran,  V. Parravicini,  
+ R. L. Patterson,  Alexander C. Paul,  Suranjan K. Paul,  F. Pavosevic,  
+ Zheng Pei,  P. Pokhilko,  S. Prager,  E. I. Proynov,  E. Ramos,  B. Rana,  
+ A. E. Rask,  A. Rettig,  R. M. Richard,  F. Rob,  E. Rossomme,  S. Roy,  
+ T. Scheele,  M. Scheurer,  M. Schneider,  P. E. Schneider,  Tim K. Schramm,  
+ N. Sergueev,  S. M. Sharada,  Hengyuan Shen,  W. Skomorowski,  D. W. Small,  
+ C. J. Stein,  Alistair J. Sterling,  Yingli Su,  Yu-Chuan Su,  
+ E. J. Sundstrom,  J. Talbot,  J. A. Tan,  Zhen Tao,  Hung-Hsuan Teh,  
+ J. Thirman,  C. Titeca,  N. Tkachenko,  Hung-Yi Tsai,  T. Tsuchimochi,  
+ N. M. Tubman,  C. Utku,  S. P. Veccham,  O. Vydrov,  Z. Wang,  Rahel Weiss,  
+ J. Wenzel,  Jonathan Wong,  J. Witte,  H. Wu,  Yanze Wu,  A. Yamada,  
+ Chou-Hsun Yang,  Kun Yao,  S. Yeganeh,  S. R. Yost,  Qi Yu,  A. Zech,  
+ F. Zeller,  Chongxiao Zhao,  T. Zhao,  Igor Ying Zhang,  Xing Zhang,  
+ Yu Zhang,  D. Zuev,  A. Aspuru-Guzik,  A. T. Bell,  N. A. Besley,  
+ K. B. Bravaya,  B. R. Brooks,  D. Casanova,  Jeng-Da Chai,  Hsing-Ta Chen,  
+ S. Coriani,  C. J. Cramer,  A. E. DePrince, III,  R. A. DiStasio Jr.,  
+ A. Dreuw,  B. D. Dunietz,  T. R. Furlani,  W. A. Goddard III,  S. Grimme,  
+ S. Hammes-Schiffer,  T. Head-Gordon,  W. J. Hehre,  Chao-Ping Hsu,  
+ T.-C. Jagau,  Yousung Jung,  A. Klamt,  Jing Kong,  D. S. Lambrecht,  
+ Xiangyuan Li,  WanZhen Liang,  N. J. Mayhall,  C. W. McCurdy,  J. B. Neaton,  
+ T. Neudecker,  C. Ochsenfeld,  J. A. Parkhill,  R. Peverati,  
+ V. A. Rassolov,  Haisheng Ren,  Yihan Shao,  L. V. Slipchenko,  
+ R. P. Steele,  J. E. Subotnik,  A. J. W. Thom,  A. Tkatchenko,  
+ D. G. Truhlar,  T. Van Voorhis,  Fan Wang,  T. A. Wesolowski,  K. B. Whaley,  
+ H. L. Woodcock III,  P. M. Zimmerman,  S. Faraji,  P. M. W. Gill,  
+ M. Head-Gordon,  J. M. Herbert,  A. I. Krylov
+
+ Contributors to earlier versions of Q-Chem not listed above: 
+ R. D. Adamson,  B. Austin,  R. Baer,  J. Baker,  G. J. O. Beran,  
+ K. Brandhorst,  S. T. Brown,  E. F. C. Byrd,  Arup K. Chakraborty,  
+ G. K. L. Chan,  Chun-Min Chang,  Yunqing Chen,  C.-L. Cheng,  
+ Siu Hung Chien,  D. M. Chipman,  D. L. Crittenden,  H. Dachsel,  
+ R. J. Doerksen,  A. D. Dutoi,  R. G. Edgar,  J. Fosso-Tande,  
+ L. Fusti-Molnar,  D. Ghosh,  A. Ghysels,  A. Golubeva-Zadorozhnaya,  
+ J. Gonthier,  M. S. Gordon,  S. R. Gwaltney,  G. Hawkins,  J. E. Herr,  
+ A. Heyden,  S. Hirata,  E. G. Hohenstein,  G. Kedziora,  F. J. Keil,  
+ C. Kelley,  Jihan Kim,  R. A. King,  R. Z. Khaliullin,  P. P. Korambath,  
+ W. Kurlancheek,  A. Laurent,  A. M. Lee,  M. S. Lee,  S. V. Levchenko,  
+ Ching Yeh Lin,  D. Liotard,  E. Livshits,  R. C. Lochan,  I. Lotan,  
+ L. A. Martinez-Martinez,  P. E. Maslen,  N. Nair,  D. P. O'Neill,  
+ D. Neuhauser,  E. Neuscamman,  C. M. Oana,  R. Olivares-Amaya,  R. Olson,  
+ T. M. Perrine,  B. Peters,  P. A. Pieniazek,  A. Prociuk,  Y. M. Rhee,  
+ J. Ritchie,  M. A. Rohrdanz,  E. Rosta,  N. J. Russ,  H. F. Schaefer III,  
+ M. W. Schmidt,  N. E. Schultz,  S. Sharma,  N. Shenvi,  C. D. Sherrill,  
+ A. C. Simmonett,  A. Sodt,  T. Stein,  D. Stuck,  K. S. Thanthiriwatte,  
+ V. Vanovschi,  L. Vogt,  Tao Wang,  A. Warshel,  M. A. Watson,  
+ C. F. Williams,  Q. Wu,  X. Xu,  Jun Yang,  W. Zhang,  Yan Zhao
+
+   Please cite Q-Chem as follows:
+  "Software for the frontiers of quantum chemistry:
+   An overview of developments in the Q-Chem 5 package"
+   J. Chem. Phys. 155, 084801 (2021)
+   https://doi.org/10.1063/5.0055522 (open access)
+
+ Q-Chem 6.3.0 for Intel X86 EM64T Linux
+
+ Parts of Q-Chem use Armadillo 12.8.2 (Cortisol Injector).
+ http://arma.sourceforge.net/
+
+ Q-Chem begins on Wed Dec  3 02:57:11 2025  
+
+ Host: 
+0
+
+     Scratch files written to /scratch1/hulinfen/qchem2661614//
+ May2125 |scratch|qcdevops|jenkins|workspace|build_RNUM -1
+ Processing $rem in /apps/generic/qchem/6.3.0/openmp/config/preferences:
+ Processing $rem in /home1/hulinfen/.qchemrc:
+ Symmetry turned off for PCM/SM12/SMD calculation
+
+ Checking the input file for inconsistencies... 	...done.
+
+--------------------------------------------------------------
+User input:
+--------------------------------------------------------------
+$molecule
+0 1
+N    0.6198703   -2.0063510    0.0357285
+N   -0.6199107   -2.0063484   -0.0355631
+C    1.3897818   -0.7982304    0.1445157
+C   -1.3898039   -0.7982250   -0.1444347
+C    1.1691515    0.1463176    1.1493039
+C   -1.1690925    0.1462786   -1.1492442
+C    2.4816277   -0.6732729   -0.7138430
+C   -2.4816946   -0.6732110    0.7138588
+C    2.0245268    1.2379208    1.2609537
+C   -2.0244358    1.2378978   -1.2609840
+C    3.3133572    0.4381094   -0.6153864
+C   -3.3133939    0.4381859    0.6153111
+C    3.0875351    1.3957996    0.3723568
+C   -3.0874923    1.3958345   -0.3724547
+H    0.3375686    0.0259621    1.8363428
+H   -0.3374648    0.0258776   -1.8362222
+H    2.6635622   -1.4455302   -1.4556806
+H   -2.6636891   -1.4454362    1.4557154
+H    1.8542020    1.9722570    2.0428872
+H   -1.8540446    1.9722045   -2.0429307
+H    4.1495040    0.5478688   -1.2997227
+H   -4.1495738    0.5479941    1.2995992
+H    3.7454165    2.2553694    0.4592472
+H   -3.7453473    2.2554175   -0.4594138
+$end
+
+$rem
+JOB_TYPE        = SP
+METHOD          = wB97X-D
+BASIS           = 6-31+G*
+GUI             = 2
+
+CIS_N_ROOTS     = 10
+CIS_SINGLETS    = TRUE
+CIS_TRIPLETS    = FALSE
+
+SCF_ALGORITHM   = diis
+MAX_SCF_CYCLES  = 200
+SCF_CONVERGENCE = 8
+THRESH          = 12
+
+SOLVENT_METHOD  = pcm
+$end
+
+$solvent
+DIELECTRIC      = 37.5
+$end
+--------------------------------------------------------------
+ ----------------------------------------------------------------
+             Standard Nuclear Orientation (Angstroms)
+    I     Atom           X                Y                Z
+ ----------------------------------------------------------------
+    1      N       0.6198703000    -2.0063510000     0.0357285000
+    2      N      -0.6199107000    -2.0063484000    -0.0355631000
+    3      C       1.3897818000    -0.7982304000     0.1445157000
+    4      C      -1.3898039000    -0.7982250000    -0.1444347000
+    5      C       1.1691515000     0.1463176000     1.1493039000
+    6      C      -1.1690925000     0.1462786000    -1.1492442000
+    7      C       2.4816277000    -0.6732729000    -0.7138430000
+    8      C      -2.4816946000    -0.6732110000     0.7138588000
+    9      C       2.0245268000     1.2379208000     1.2609537000
+   10      C      -2.0244358000     1.2378978000    -1.2609840000
+   11      C       3.3133572000     0.4381094000    -0.6153864000
+   12      C      -3.3133939000     0.4381859000     0.6153111000
+   13      C       3.0875351000     1.3957996000     0.3723568000
+   14      C      -3.0874923000     1.3958345000    -0.3724547000
+   15      H       0.3375686000     0.0259621000     1.8363428000
+   16      H      -0.3374648000     0.0258776000    -1.8362222000
+   17      H       2.6635622000    -1.4455302000    -1.4556806000
+   18      H      -2.6636891000    -1.4454362000     1.4557154000
+   19      H       1.8542020000     1.9722570000     2.0428872000
+   20      H      -1.8540446000     1.9722045000    -2.0429307000
+   21      H       4.1495040000     0.5478688000    -1.2997227000
+   22      H      -4.1495738000     0.5479941000     1.2995992000
+   23      H       3.7454165000     2.2553694000     0.4592472000
+   24      H      -3.7453473000     2.2554175000    -0.4594138000
+ ----------------------------------------------------------------
+ Nuclear Repulsion Energy =         793.73139478 hartrees
+ There are       48 alpha and       48 beta electrons
+ Requested basis set is 6-31+G(d)
+ There are 90 shells and 286 basis functions
+
+ Total QAlloc Memory Limit   8000 MB
+ Mega-Array Size       188 MB
+ MEM_STATIC part       192 MB
+
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/read_pcm_solvent.C, line 176:
+
+ Using eps_inf = 1.78 (water) for excited-state calculations
+
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+ Using C-PCM dielectric factor f(eps) = (eps-1)/eps = 0.987243
+ Static dielectric constant eps = 78.39
+ Discretize the solute cavity surface with Lebedev spheres
+	Using 110 Lebedev grid points for each H atom
+	Using 194 Lebedev grid points for other atoms
+	Atomic van der Waals radii (Bondi set) will be scaled by 1.20
+ Using smooth SwiG surface discretization
+ Remove points where switching function is < 1.0e-08
+ Keep 1648 surface tesserae and discard 2168 interior tesserae
+ Molecular Surface Area = 229.038 Angst**2
+
+ A cutoff of  1.0D-12 yielded   3523 shell pairs
+ There are     37591 function pairs
+ Smallest overlap matrix eigenvalue = 2.46E-06
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Scale SEOQF with 1.000000e-01/1.000000e-01/1.000000e-01
+
+ Standard Electronic Orientation quadrupole field applied
+ Nucleus-field energy     =     0.0000000200 hartrees
+ Guess from superposition of atomic densities
+ Warning:  Energy on first SCF cycle will be non-variational
+ SAD guess density has 96.000000 electrons
+
+ -----------------------------------------------------------------------
+  General SCF calculation program by
+  Eric Jon Sundstrom, Paul Horn, Yuezhi Mao, Dmitri Zuev, Alec White,
+  David Stuck, Shaama M.S., Shane Yost, Joonho Lee, David Small,
+  Daniel Levine, Susi Lehtola, Hugh Burton, Evgeny Epifanovsky,
+  Bang C. Huynh
+ -----------------------------------------------------------------------
+ Exchange:     0.2220 Hartree-Fock + 1.0000 wB97X-D + LR-HF
+ Correlation:  1.0000 wB97X-D
+ Using SG-2 standard quadrature grid
+ Dispersion:   Grimme D
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+ using 8 threads for integral computing
+ -------------------------------------------------------
+ OpenMP Integral computing Module                
+ Release: version 1.0, May 2013, Q-Chem Inc. Pittsburgh 
+ -------------------------------------------------------
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+ C-PCM solvent model [f = (eps-1)/eps], solve by matrix inversion
+ A restricted SCF calculation will be
+ performed using DIIS
+ SCF converges when DIIS error is below 1.0e-08
+ User-specified cutoff of 10e-12
+ used for neglect of 2-electron integrals.
+ A cutoff of 10e-12
+ used for neglect of overlap integrals.
+ Incremental Fock algorithm is on at the start.
+ ---------------------------------------
+  Cycle       Energy         DIIS error
+ ---------------------------------------
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+    1    -576.7795746051      4.29e-02  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+    2    -572.4806392093      2.61e-03  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+    3    -572.5288102526      1.82e-03  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+    4    -572.5611531187      3.65e-04  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+    5    -572.5627219685      1.31e-04  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+    6    -572.5629404708      3.34e-05  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+    7    -572.5629587976      1.54e-05  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+    8    -572.5629626997      4.14e-06  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+    9    -572.5629632086      8.06e-07  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   10    -572.5629632320      3.40e-07  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   11    -572.5629632352      1.59e-07  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   12    -572.5629632359      3.26e-08  
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   13    -572.5629632359      1.28e-08  
+   14    -572.5629632359      8.22e-09  Convergence criterion met
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+ ---------------------------------------
+ SCF time:   CPU 277.56s  wall 35.00s 
+
+************** Final PCM Free Energy Summary **************
+ G_electrostatic  =      -0.01612520 hartree =     -10.11871581 kcal/mol
+ G_cavitation     =       0.00000000 hartree =       0.00000000 kcal/mol
+ G_dispersion     =       0.00000000 hartree =       0.00000000 kcal/mol
+ G_repulsion      =       0.00000000 hartree =       0.00000000 kcal/mol
+ --------------------------------------------------
+ Non-electrostatic Free Energy =       0.00000000 hartree =       0.00000000 kcal/mol
+ Total                         =      -0.01612520 hartree =     -10.11871581 kcal/mol
+ --------------------------------------------------
+ SCF Energy (H0 + V/2)                       =    -572.56296324 
+ Solute Internal Energy (H0)                 =    -572.54683804 
+ Total Free Energy (H0 + V/2 + non-elec)     =    -572.56296324 hartree
+                                             = -359288.68392817 kcal/mol
+***********************************************************
+
+ SCF   energy =  -572.56296324
+ Total energy =  -572.56296324
+ Integrated density by DFT XC:
+   Number of electrons = 96
+   Numerical integral  =    95.996159386350
+   Relative error      =     0.0040006392 %
+
+ CIS/TDDFT Memory Preview
+ --------------------------
+ 	O*V dim = 22848
+ 	Mem per subspace vector = 0.2 Mb
+ 	Max subspace size fits in available memory
+ Direct TDDFT/TDA calculation will be performed
+ Exchange:     0.2220 Hartree-Fock + 1.0000 wB97X-D + LR-HF
+ Correlation:  1.0000 wB97X-D
+ Using SG-2 standard quadrature grid
+ Dispersion:   Grimme D
+ Singlet excitation energies requested
+ Adding PCM contribution to the XC response (LR-PCM)
+ Optical dielectric constant (eps_inf) =  1.78
+ CIS energy converged when residual is below 10e- 6
+ ---------------------------------------------------
+ Iter    Rts Conv    Rts Left    Ttl Dev     Max Dev
+ ---------------------------------------------------
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   1         0          10      0.006003    0.000917
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   2         0          10      0.002387    0.000344
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   3         0          10      0.001168    0.000177
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   4         0          10      0.000829    0.000266
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   5         0          10      0.000394    0.000159
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   6         1           9      0.000138    0.000053
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   7         2           8      0.000064    0.000026
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   8         6           4      0.000037    0.000020
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+   9         7           3      0.000017    0.000009
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+  10         8           2      0.000009    0.000004
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+  11         9           1      0.000006    0.000001
+
+ Q-Chem warning in module libscrf/libscrf/pcm/PCM_CLASS/set_dielectric_constant.C, line 12:
+
+ Solvent dielectric was either not specified or less than 1.
+
+QChem will use a solvent dielectric of 78.39 (water) by default for PCM.
+  12        10           0      0.000005    0.000001    Roots Converged
+ ---------------------------------------------------
+ 
+ ---------------------------------------------------
+         TDDFT/TDA Excitation Energies              
+ ---------------------------------------------------
+
+ Excited state   1: excitation energy (eV) =       2.9747
+ Total energy for state   1:                  -572.45364600 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.6850 X  -0.0000 Y   0.3233 Z
+    Strength   :     0.0418148822
+    D(   44) --> V(    1) amplitude =  0.4116
+    D(   48) --> V(    1) amplitude =  0.8590
+
+ Excited state   2: excitation energy (eV) =       4.6038
+ Total energy for state   2:                  -572.39377797 au
+    Multiplicity: Singlet
+    Trans. Mom.:  1.1811 X   0.0000 Y   0.2520 Z
+    Strength   :     0.1645058649
+    D(   44) --> V(    1) amplitude = -0.5166
+    D(   47) --> V(    1) amplitude =  0.6807
+    D(   48) --> V(    1) amplitude =  0.4240
+
+ Excited state   3: excitation energy (eV) =       4.7569
+ Total energy for state   3:                  -572.38815136 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.0002 X   0.5906 Y  -0.0001 Z
+    Strength   :     0.0406472636
+    D(   45) --> V(    1) amplitude = -0.2682
+    D(   46) --> V(    1) amplitude =  0.8934
+
+ Excited state   4: excitation energy (eV) =       4.9557
+ Total energy for state   4:                  -572.38084573 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.9355 X   0.0000 Y   0.1350 Z
+    Strength   :     0.1084623219
+    D(   44) --> V(    1) amplitude =  0.6478
+    D(   46) --> V(    3) amplitude = -0.2220
+    D(   47) --> V(    1) amplitude =  0.5167
+    D(   48) --> V(    2) amplitude =  0.3897
+
+ Excited state   5: excitation energy (eV) =       5.0321
+ Total energy for state   5:                  -572.37803836 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0001 X  -0.3080 Y   0.0000 Z
+    Strength   :     0.0116936188
+    D(   45) --> V(    1) amplitude =  0.7883
+    D(   46) --> V(    1) amplitude =  0.2255
+    D(   48) --> V(    3) amplitude =  0.3234
+    D(   48) --> V(    4) amplitude =  0.2465
+
+ Excited state   6: excitation energy (eV) =       5.6137
+ Total energy for state   6:                  -572.35666505 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.9080 X  -0.0001 Y  -0.6995 Z
+    Strength   :     0.1806813111
+    D(   46) --> V(    3) amplitude = -0.2297
+    D(   47) --> V(    1) amplitude = -0.4422
+    D(   48) --> V(    2) amplitude =  0.7599
+
+ Excited state   7: excitation energy (eV) =       5.7712
+ Total energy for state   7:                  -572.35087569 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0002 X   0.8442 Y  -0.0001 Z
+    Strength   :     0.1007723369
+    D(   45) --> V(    1) amplitude = -0.4214
+    D(   46) --> V(    1) amplitude = -0.2176
+    D(   48) --> V(    3) amplitude =  0.7405
+
+ Excited state   8: excitation energy (eV) =       5.9238
+ Total energy for state   8:                  -572.34526743 au
+    Multiplicity: Singlet
+    Trans. Mom.:  0.0000 X  -0.3727 Y  -0.0001 Z
+    Strength   :     0.0201646212
+    D(   44) --> V(    3) amplitude = -0.2277
+    D(   46) --> V(    2) amplitude = -0.2978
+    D(   47) --> V(    3) amplitude = -0.2501
+    D(   48) --> V(    3) amplitude = -0.4240
+    D(   48) --> V(    4) amplitude =  0.6915
+
+ Excited state   9: excitation energy (eV) =       6.0819
+ Total energy for state   9:                  -572.33945600 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.4123 X   0.0001 Y  -0.0722 Z
+    Strength   :     0.0261112233
+    D(   47) --> V(    2) amplitude =  0.2336
+    D(   48) --> V(    5) amplitude =  0.2739
+    D(   48) --> V(    6) amplitude =  0.7919
+
+ Excited state  10: excitation energy (eV) =       6.4059
+ Total energy for state  10:                  -572.32755026 au
+    Multiplicity: Singlet
+    Trans. Mom.: -0.4164 X   0.0001 Y   0.2827 Z
+    Strength   :     0.0397572999
+    D(   44) --> V(    2) amplitude = -0.4751
+    D(   45) --> V(    4) amplitude =  0.2735
+    D(   46) --> V(    3) amplitude = -0.4933
+    D(   47) --> V(    2) amplitude =  0.2810
+    D(   47) --> V(    6) amplitude = -0.2406
+    D(   48) --> V(    2) amplitude = -0.3775
+    D(   48) --> V(    5) amplitude = -0.2208
+ 
+ ---------------------------------------------------
+  SETman timing summary (seconds)
+  CPU time               724.58s
+  System time              0.00s
+  Wall time               99.33s
+ 
+ --------------------------------------------------------------
+ 
+                    Orbital Energies (a.u.)
+ --------------------------------------------------------------
+ 
+ Alpha MOs
+ -- Occupied --
+-14.5308 -14.5303 -10.3483 -10.3482 -10.3180 -10.3180 -10.3159 -10.3159
+-10.3145 -10.3145 -10.3144 -10.3144 -10.3127 -10.3127  -1.1616  -0.9821
+ -0.9705  -0.9009  -0.8635  -0.8596  -0.8590  -0.7822  -0.7278  -0.7144
+ -0.7144  -0.6685  -0.6451  -0.5963  -0.5860  -0.5669  -0.5640  -0.5397
+ -0.5322  -0.5221  -0.5180  -0.5104  -0.4914  -0.4629  -0.4584  -0.4571
+ -0.4509  -0.4334  -0.4298  -0.3565  -0.3508  -0.3390  -0.3375  -0.3036
+ -- Virtual --
+ -0.0153   0.0424   0.0457   0.0575   0.0681   0.0706   0.0823   0.0872
+  0.0886   0.0993   0.1005   0.1034   0.1061   0.1146   0.1223   0.1248
+  0.1326   0.1348   0.1438   0.1476   0.1579   0.1683   0.1780   0.1797
+  0.1811   0.1864   0.1875   0.1950   0.1977   0.1990   0.2056   0.2119
+  0.2212   0.2228   0.2255   0.2320   0.2390   0.2443   0.2455   0.2474
+  0.2511   0.2522   0.2624   0.2661   0.2768   0.2772   0.2814   0.2821
+  0.2908   0.2922   0.2958   0.2969   0.3024   0.3057   0.3134   0.3176
+  0.3190   0.3195   0.3261   0.3307   0.3407   0.3452   0.3464   0.3526
+  0.3646   0.3681   0.3726   0.3800   0.3877   0.3923   0.3936   0.4054
+  0.4072   0.4251   0.4263   0.4381   0.4432   0.4433   0.4591   0.4618
+  0.4720   0.4804   0.4901   0.5662   0.6394   0.6511   0.6942   0.6993
+  0.7026   0.7111   0.7448   0.7605   0.7629   0.7847   0.7951   0.8057
+  0.8099   0.8223   0.8257   0.8298   0.8385   0.8397   0.8473   0.8578
+  0.8694   0.8857   0.8878   0.8954   0.9129   0.9376   0.9542   0.9606
+  0.9907   0.9954   1.0199   1.0323   1.0386   1.0459   1.0493   1.0622
+  1.0647   1.0766   1.0837   1.1057   1.1119   1.1232   1.1256   1.1489
+  1.1589   1.1736   1.1794   1.1866   1.1951   1.2020   1.2176   1.2181
+  1.2503   1.2592   1.2722   1.2831   1.3007   1.3067   1.3252   1.3358
+  1.3732   1.3757   1.3909   1.4139   1.4675   1.4770   1.5053   1.5235
+  1.5352   1.5439   1.5518   1.5602   1.5644   1.5773   1.5829   1.5872
+  1.5965   1.6036   1.6485   1.7118   1.7288   1.8222   1.8887   1.9164
+  1.9182   1.9412   1.9520   1.9838   2.0083   2.0414   2.0484   2.0606
+  2.0697   2.0728   2.0959   2.1178   2.1916   2.2010   2.2048   2.2275
+  2.2326   2.2333   2.2416   2.2432   2.2572   2.2573   2.3217   2.3365
+  2.3443   2.3680   2.3894   2.3894   2.4158   2.4347   2.4860   2.5497
+  2.6341   2.6566   2.6793   2.6984   2.7132   2.7154   2.7317   2.7485
+  2.7647   2.8187   2.8270   2.8318   2.8359   2.8522   2.8827   2.9035
+  2.9272   2.9694   3.0208   3.1816   3.1915   3.3121   3.4973   3.5227
+  4.2114   4.3491   4.3491   4.3586   4.3666   4.4216   4.4400   4.4671
+  4.5020   4.5241   4.5465   4.6029   4.8080   4.8294
+ --------------------------------------------------------------
+ 
+          Ground-State Mulliken Net Atomic Charges
+
+     Atom                 Charge (a.u.)
+  ----------------------------------------
+      1 N                    -0.075955
+      2 N                    -0.075943
+      3 C                    -0.207942
+      4 C                    -0.207946
+      5 C                     0.243904
+      6 C                     0.243971
+      7 C                    -0.238034
+      8 C                    -0.238050
+      9 C                    -0.407043
+     10 C                    -0.407076
+     11 C                    -0.304911
+     12 C                    -0.304916
+     13 C                    -0.259333
+     14 C                    -0.259321
+     15 H                     0.257745
+     16 H                     0.257747
+     17 H                     0.253235
+     18 H                     0.253236
+     19 H                     0.246776
+     20 H                     0.246776
+     21 H                     0.246877
+     22 H                     0.246877
+     23 H                     0.244663
+     24 H                     0.244664
+  ----------------------------------------
+  Sum of atomic charges =     0.000000
+
+ -----------------------------------------------------------------
+                    Cartesian Multipole Moments
+ -----------------------------------------------------------------
+    Charge (ESU x 10^10)
+                 0.0000
+    Dipole Moment (Debye)
+         X      -0.0000      Y       4.8427      Z      -0.0002
+       Tot       4.8427
+    Quadrupole Moments (Debye-Ang)
+        XX     -70.4063     XY      -0.0001     YY     -87.9488
+        XZ      -7.0911     YZ       0.0005     ZZ     -75.2168
+    Octopole Moments (Debye-Ang^2)
+       XXX      -0.0033    XXY      32.2233    XYY       0.0001
+       YYY      44.6830    XXZ      -0.0010    XYZ      14.9144
+       YYZ      -0.0024    XZZ       0.0003    YZZ       3.5013
+       ZZZ      -0.0012
+    Hexadecapole Moments (Debye-Ang^3)
+      XXXX   -2396.6060   XXXY       0.0015   XXYY    -499.9391
+      XYYY       0.0010   YYYY    -838.1605   XXXZ    -170.4896
+      XXYZ       0.0021   XYYZ       1.5423   YYYZ       0.0116
+      XXZZ    -482.8352   XYZZ       0.0010   YYZZ    -177.4022
+      XZZZ     -51.3620   YZZZ       0.0077   ZZZZ    -417.9295
+ -----------------------------------------------------------------
+ Total job time:  135.37s(wall), 1005.97s(cpu) 
+ Wed Dec  3 02:59:26 2025
+
+        *************************************************************
+        *                                                           *
+        *  Thank you very much for using Q-Chem.  Have a nice day.  *
+        *                                                           *
+        *************************************************************
+
+
