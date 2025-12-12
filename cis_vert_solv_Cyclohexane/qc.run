@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#SBATCH --job-name=cis_vert_solv
+#SBATCH --output=cis_vert_solv.o%j
+#SBATCH --error=cis_vert_solv.e%j
+
+#SBATCH --partition=main
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8000MB
+#SBATCH --time=06:00:00
+#SBATCH --account=krylov_547
+
+module purge
+module load usc
+module load qchem/6.3.0-openmp
+
+cd $SLURM_SUBMIT_DIR
+hostname
+
+qchem -nt 8 cis_vert_solv.in cis_vert_solv.qcout
