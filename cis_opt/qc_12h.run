@@ -1,0 +1,24 @@
+#!/bin/bash
+# Q-Chem cis-azobenzene optimization
+
+#SBATCH --job-name=cis_opt3
+#SBATCH --output=cis_opt3.o%j
+#SBATCH --error=cis_opt3.e%j
+
+#SBATCH --partition=main
+#SBATCH --nodes=1
+#SBATCH --ntasks=1          # 
+#SBATCH --cpus-per-task=8   # 
+#SBATCH --mem=8000MB
+#SBATCH --time=12:00:00     # 
+#SBATCH --account=krylov_547   #
+
+module purge
+module load usc
+module load qchem/6.3.0-openmp
+
+cd $SLURM_SUBMIT_DIR
+hostname
+
+qchem -nt 8 cis_opt3.in cis_opt3.qcout
+
